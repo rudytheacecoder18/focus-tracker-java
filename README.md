@@ -1,6 +1,17 @@
 # 🧠 Focus Tracker (Java)
 
-A simple **console-based study tracker** built in Java that helps users track study sessions, measure productivity, and stay consistent with their goals.
+> 🚀 A console-based study tracker built in Java to help users manage time, track productivity, and achieve study goals.
+
+---
+
+## 📌 Overview
+
+Focus Tracker is a simple Java application that allows users to:
+
+* Track study sessions
+* Measure total time spent studying
+* Monitor progress and averages
+* Set and achieve study goals
 
 ---
 
@@ -11,20 +22,17 @@ A simple **console-based study tracker** built in Java that helps users track st
 * 🔢 Count number of sessions
 * 📈 View average session duration
 * 🎯 Set a study goal (in minutes)
-* 🔄 Reset progress anytime
-* ⚡ Live session tracking while running
+* 🔄 Reset progress
+* ⚡ Live session tracking
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-* **Language:** Java
-* **Concepts Used:**
-
-  * Object-Oriented Programming (OOP)
-  * Loops & Conditional Logic
-  * User Input Handling (`Scanner`)
-  * Time Tracking (`System.currentTimeMillis()`)
+* Java
+* OOP Concepts
+* `Scanner` for user input
+* `System.currentTimeMillis()` for time tracking
 
 ---
 
@@ -32,96 +40,55 @@ A simple **console-based study tracker** built in Java that helps users track st
 
 ```
 focus-tracker-java/
-│── Main.java       # Main application logic
+│── Main.java
 │── README.md
 ```
 
 ---
 
-## ⚙️ How It Works
+## ▶️ How to Run
 
-The program runs in a loop and provides a menu:
-
+```bash
+git clone https://github.com/rudytheacecoder18/focus-tracker-java.git
+cd focus-tracker-java
+javac Main.java
+java Main
 ```
+
+---
+
+## 🧠 How It Works
+
+The program runs in a loop and presents a menu:
+
 1. Start Study Session
 2. End Study Session
 3. View Progress
 4. Set Study Goal
 5. Reset Progress
 6. Exit
-```
 
-### 💡 Key Logic
-
-* Uses system time to calculate session duration
-* Converts milliseconds → seconds → minutes
-* Stores:
-
-  * Total study time
-  * Number of sessions
-  * Study goal
+It uses system time to calculate session duration and keeps track of total time and goals.
 
 ---
 
-## ▶️ How to Run
+## 🎯 Example
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/rudytheacecoder18/focus-tracker-java.git
-cd focus-tracker-java
 ```
-
-### 2. Compile
-
-```bash
-javac Main.java
-```
-
-### 3. Run
-
-```bash
-java Main
+Study session started!
+Session ended!
+You studied for 25 min 30 sec
+Good job! Keep it up!
 ```
 
 ---
 
-## 🎯 Example Output
+## 📌 Future Improvements
 
-```
-===== STUDY TRACKER =====
-1. Start Study Session
-2. End Study Session
-3. View Progress
-4. Set Study Goal (minutes)
-5. Reset Progress
-6. Exit
-```
-
----
-
-## 📌 Use Cases
-
-* Students tracking study time
-* Developers tracking coding sessions
-* Anyone building focus habits
-
----
-
-## 🧩 Future Improvements
-
-* Add GUI (JavaFX or Swing)
-* Save progress to file/database
-* Add Pomodoro timer mode
-* Add daily/weekly analytics
-* Export reports
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
+* GUI version (JavaFX / Swing)
+* Save data using files or database
+* Pomodoro timer integration
+* Weekly progress tracking
 
 ---
 
@@ -131,6 +98,6 @@ Feel free to fork this repo and submit a pull request.
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a star ⭐ and share it!
+If you like this project, give it a star ⭐
